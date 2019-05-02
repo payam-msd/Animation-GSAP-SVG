@@ -1,0 +1,23 @@
+{
+    "name": "GSAP-workshop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "gh-pages -d /"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/payam-msd/Animation-GSAP-SVG.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/payam-msd/Animation-GSAP-SVG/issues"
+    },
+    "homepage": "https://github.com/payam-msd/Animation-GSAP-SVG#readme",
+    "dependencies": {
+        "gh-pages": "^2.0.1"
+    }
+}
