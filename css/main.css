@@ -85,6 +85,10 @@ h4 {
 }
 
 /* =Project Slides */
+.projects {
+    visibility: hidden;
+    opacity: 0;
+}
 .project {
     text-align: center;
     position: fixed;
@@ -315,6 +319,95 @@ a.button {
     border-bottom-right-radius: 3px;
 }
 
+/* =GameBoy */
+.project02 .project__title {
+    color: #282c1b;
+}
+.project02 .project__subtitle {
+    color: rgba(40, 44, 27, 0.4);
+}
+.project02 .project__img:before {
+    background-color: rgba(40, 44, 27, 0.8);
+}
+.project02 .project__img:after {
+    background-color: rgba(89, 96, 117, 0.6);
+}
+.project02 .pixel {
+    background-color: rgba(89, 95, 117, 0.1);
+}
+.project02 .sizeS {
+    background-color: rgba(89, 95, 117, 0.1);
+}
+.project02 .sizeL {
+    background-color: rgba(89, 95, 117, 0.3);
+}
+.project02 .sizeXL {
+    background-color: rgba(89, 95, 117, 0.6);
+}
+
+/* =SVG Christmas */
+.project03 .project__title {
+    color: #473432;
+}
+.project03 .project__subtitle {
+    color: rgba(71, 52, 50, 0.3);
+}
+.project03 .project__i__:before {
+    background-color: rgba(254, 182, 0, 0.7);
+}
+.project03 .project__i__:after {
+    background-color: rgba(234, 93, 71, 0.6);
+}
+.project03 .pixel {
+    background-color: rgba(71, 52, 50, 0.1);
+}
+.project03 .sizeS {
+    background-color: rgba(71, 52, 50, 0.1);
+}
+.project03 .sizeL {
+    background-color: rgba(71, 52, 50, 0.3);
+}
+.project03 .sizeXL {
+    background-color: rgba(71, 52, 50, 0.6);
+}
+
+/* =Intro */
+.project00 .project__title {
+    color: #fdfac6;
+}
+.project00 .project__subtitle {
+    color: rgba(253, 250, 198, 0.3);
+}
+.project00 .project__img:before {
+    background-color: rgba(252, 21, 62, 0.7);
+}
+.project00 .project__img:after {
+    background-color: rgba(164, 16, 58, 0.6);
+}
+.project00 .pixel {
+    background-color: rgba(253, 250, 198, 0.1);
+}
+.project00 .sizeS {
+    background-color: rgba(253, 250, 198, 0.1);
+}
+.project00 .sizeL {
+    background-color: rgba(253, 250, 198, 0.3);
+}
+.project00 .sizeXL {
+    background-color: rgba(253, 250, 198, 0.6);
+}
+
+.loader {
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    transform: rotate(-90deg);
+    opacity: 0.7;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -325,6 +418,9 @@ a.button {
     }
     .project__subtitle {
         font-size: 20px;
+    }
+    .project02 br {
+        display: none;
     }
 }
 
